@@ -105,9 +105,14 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the filebeat-playbook.yml file to /etc/ansible
+
+![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/Screen%20Shot%202021-05-14%20at%2011.09.20%20AM.png)
+
+- Update the filebeat-playbook.yml file to include your ELK server private IP in lines 1106 and 1806
+- Run the playbook, and navigate to the Kibana page to check that the installation worked as expected.
+
+![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00001.png)
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
