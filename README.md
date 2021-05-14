@@ -61,11 +61,14 @@ Machines within the network can only be accessed by using the DVWA container in 
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+```git
+| Name                 | Publicly Accessible | Allowed IP Address      |
+|----------------------|---------------------|-------------------------|
+| Jump-Box-Provisioner | Yes                 | 10.0.0.4, 52.250.13.233 |
+| Web-1                | No                  | 10.0.0.5                |
+| Web-2                | No                  | 10.0.0.7                |
+| ELK                  | No                  | 10.2.0.4, 41.121.108.9  |
+```
 
 ### Elk Configuration
 
