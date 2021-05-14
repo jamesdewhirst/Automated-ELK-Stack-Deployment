@@ -144,6 +144,6 @@ SSH into the control node and follow the steps below:
 ---
 
 ## History Record
-```
-![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00010.png)
-```
+
+>> ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00010.png)
+
