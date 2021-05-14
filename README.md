@@ -113,3 +113,9 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to the Kibana page to check that the installation worked as expected.
 
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00001.png)
+
+### Additional Screenshots for Reference
+![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00003.png)
+![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00004.png)
+
+
