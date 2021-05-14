@@ -126,19 +126,24 @@ SSH into the control node and follow the steps below:
 ---
 
 ### Additional Screenshots for Reference
-
+```
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00003.png)
-
+```
+```
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00004.png)
-
+```
+```
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00006.png)
-
+```
+```
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00007.png)
-
+```
+```
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00011.png)
-
+```
 ---
 
 ## History Record
-
-![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00011.png)
+```
+![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00010.png)
+```
