@@ -16,6 +16,7 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
+---
 
 ### Description of the Topology
 
@@ -48,6 +49,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | ELK                  | Configuration VM | 10.2.0.4   | Linux            |
 ```
 
+---
+
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
@@ -70,6 +73,8 @@ A summary of the access policies in place can be found in the table below.
 | ELK                  | No                  | 10.2.0.4, 41.121.108.9  |
 ```
 
+---
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
@@ -86,6 +91,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00002.png)
 
+---
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - 10.0.0.5 - Web-1
@@ -101,6 +108,8 @@ These Beats allow us to collect the following information from each machine:
 - Metricbeat
   -  This allows you to periodically schedule collected metrics from your operating system and other services operating on your server. You can also analyze this data collected in Logstash and/or Elasticsearch.
 
+---
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
@@ -113,7 +122,9 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to the Kibana page to check that the installation worked as expected.
 
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00001.png)
------
+
+---
+
 ### Additional Screenshots for Reference
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00003.png)
 ![](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Images/20210319_00004.png)
